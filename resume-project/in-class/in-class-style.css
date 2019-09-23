@@ -1,12 +1,8 @@
-/*I built this myself!*/
-/*styles for my resume*/
-
 h1, h2, h3, h4, h5, p, li, body {
   font-family: 'Open Sans', 'Arial', sans-serif;
   font-size: 1em;
   color: #444;
 }
-/*banner name at top*/
 h1 {
   font-size: 3em;
   color: #33485e;
@@ -14,31 +10,26 @@ h1 {
   font-weight: 700;
   text-align: center;
   }
-/*my title*/
 strong {
   font-size: 1.5em;
   text-transform: uppercase;
   color: #33485e;
 }
-/*section titles, including confact info, skills and education*/
 h2 {
   font-size: 1.5em;
-  background-color: #33485e
-  font-transform: uppercase:
-  font-weight: 400;
-  color: white
-}
-/*job titles*/
+  text-transform: uppercase;
+  background-color: #33485e;
+  color: white;
+  font-weight: 700;
+  }
 h3 {
   font-weight: 700;
   font-size: 1.5em;
 }
-/*job organization*/
 h4 {
   font-weight: 400;
   font-size: 1.5em;
 }
-/*job dates*/
 h5 {
   font-weight: 400;
   font-style: italic;

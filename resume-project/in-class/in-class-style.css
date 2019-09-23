@@ -1,0 +1,17 @@
+h1, h2, h3, h4, h5, p, li, body {
+  font-family: 'Open Sans', 'Arial', sans-serif;
+  font-size: 1em;
+  color: #444;
+}
+h1 {
+  font-size: 3em;
+  color: #33485e;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+  }
+strong {
+  font-size: 1.5em;
+  text-transform: uppercase;
+  color: #33485e;
+}

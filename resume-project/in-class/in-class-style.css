@@ -1,9 +1,15 @@
 /* styles for my resume*/
 
-#name, .section-header, .job-title, h4, h5, p, li, body {
+#name, #container, .mission-statement, .section-header, .job-title, .organization, .date, .description, .menu, #education, body {
   font-family: 'Open Sans', 'Arial', sans-serif;
   font-size: 1em;
   color: #444;
+}
+div#container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding-bottom: 50px;
 }
 div#name {
   font-size: 3em;
@@ -16,10 +22,26 @@ div#name {
   min-width: 300px;
   margin: 0 auto;
   }
-strong {
+div#title {
   font-size: 1.5em;
   text-transform: uppercase;
   color: #33485e;
+  font-weight: 700;
+  text-align: center;
+  width: 60%;
+  min-width: 300px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+div.mission-statement {
+  width: 60%;
+  min-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: 30px;
 }
 div.section-header {
   font-size: 1.5em;
@@ -27,7 +49,10 @@ div.section-header {
   background-color: #33485e;
   color: white;
   font-weight: 700;
-  margin: 10px 20px 0px 0px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  margin-right: 0px;
+  margin-left: 0px;
   max-width: 400px;
   }
 div.job-title {
@@ -37,14 +62,37 @@ div.job-title {
 div.organization {
   font-weight: 400;
   font-size: 1.25em;
-  margin: 2px 0 auto;
+  margin-top: 2px;
 }
 div.date {
   font-weight: 400;
   font-style: italic;
   font-size: 1em;
-  margin: 2px 0px 0px 0px;
+  margin-top: 2px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
 }
-li {
-  font-size: 1em;
+div.description {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+div.menu {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+div#education {
+  margin-top: 40px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+div#skills {
+  margin-top: 40px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
 }

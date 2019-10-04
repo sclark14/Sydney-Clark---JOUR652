@@ -11,6 +11,7 @@ div#container {
   margin: 0 auto;
   padding-bottom: 50px;
 }
+/* banner name at top*/
 div#name {
   font-size: 3em;
   color: #33485e;
@@ -22,6 +23,7 @@ div#name {
   min-width: 300px;
   margin: 0 auto;
   }
+/* description title at top*/
 div#title {
   font-size: 1.5em;
   text-transform: uppercase;
@@ -35,6 +37,7 @@ div#title {
   margin-left: auto;
   margin-right: auto;
 }
+/* styles for my mission statement*/
 div.mission-statement {
   width: 60%;
   min-width: 300px;
@@ -43,6 +46,7 @@ div.mission-statement {
   margin-top: auto;
   margin-bottom: 30px;
 }
+/* styles for section headers*/
 div.section-header {
   font-size: 1.5em;
   text-transform: uppercase;
@@ -55,15 +59,18 @@ div.section-header {
   margin-left: 0px;
   max-width: 400px;
   }
+/* styles for job titles*/
 div.job-title {
   font-weight: 700;
   font-size: 1.5em;
 }
+/* styles for the organizations I worked at*/
 div.organization {
   font-weight: 400;
   font-size: 1.25em;
   margin-top: 2px;
 }
+/* styles for dates*/
 div.date {
   font-weight: 400;
   font-style: italic;
@@ -73,23 +80,27 @@ div.date {
   margin-bottom: 0px;
   margin-left: 0px;
 }
+/* styles job descriptions*/
 div.description {
   margin-top: 10px;
   margin-bottom: 20px;
   margin-right: 0px;
   margin-left: 0px;
 }
+/* styles for contact information*/
 div.menu {
   margin: 0px;
   padding: 0px;
   text-align: center;
 }
+/* styles for my education section*/
 div#education {
   margin-top: 40px;
   margin-left: 0px;
   margin-right: 0px;
   margin-bottom: 0px;
 }
+/* styles for my skills section*/
 div#skills {
   margin-top: 40px;
   margin-left: 0px;

@@ -1,0 +1,52 @@
+/* styles for my resume*/
+
+#name, #container, .mission-statement, .section-header, .job-title, .organization, .date, .description, .menu, #education, #skills, body {
+  font-family: 'Open Sans', 'Arial', sans-serif;
+}
+div#container {
+}
+/* banner name at top*/
+div#name {
+  font-size:
+  text-transform: uppercase;
+  font-weight:
+  text-align: center;
+  }
+/* description title at top*/
+div#title {
+  font-size:
+  text-transform: uppercase;
+  text-align: center;
+}
+/* styles for my mission statement*/
+div.mission-statement {
+}
+/* styles for section headers*/
+div.section-header {
+  text-transform: uppercase;
+  }
+/* styles for job titles*/
+div.job-title {
+  font-weight: 700;
+  font-size: 1.5em;
+}
+/* styles for the organizations I worked at*/
+div.organization {
+}
+/* styles for dates*/
+div.date {
+  font-style: italic;
+}
+/* styles job descriptions*/
+div.description {
+}
+/* styles for contact information*/
+div.menu {
+  text-align: left;
+}
+/* styles for my education section*/
+div#education {
+}
+/* styles for my skills section*/
+div#skills {
+}

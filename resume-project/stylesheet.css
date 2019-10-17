@@ -1,61 +1,73 @@
 /* styles for my resume*/
 
-#name, #container, .mission-statement, #title, #image, #experience, .section-header, .job-title, .organization, .date, .description, .menu, #education, #skills, body {
+#banner, #container, .mission-statement, #title, #image, #experience, .section-header, .job-title, .organization, .date, .description, .menu, #education, #skills, body {
   font-family: 'Open Sans', 'Arial', sans-serif;
 }
-div#container {
-}
-/* banner name at top*/
-div#name {
-  font-size:
-  text-transform: uppercase;
-  font-weight:
-  text-align: center;
-  }
-/* description title at top*/
-div#title {
-  font-size:
-  text-transform: uppercase;
-  text-align: center;
-}
-div#image {
-  margin: 0 auto;
-  
-}
-/* styles for my mission statement*/
-div.mission-statement {
-}
-div#experience {
-  font-size:
-  text-transform: uppercase;
 
+#banner {
+  width: 100%;
 }
+
+#container {
+}
+
+/* banner name at top*/
+.name {
+  font-size:
+  text-transform: uppercase;
+  font-weight:
+  text-align: center;
+  }
+
+/* description title at top*/
+#title {
+  font-size:
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* styles for my mission statement*/
+#mission-statement {
+  text-align; center;
+  font-size: 20px;
+}
+
+#experience {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
 /* styles for section headers*/
-div.section-header {
+.section-header {
   text-transform: uppercase;
   }
+
 /* styles for job titles*/
-div.job-title {
+.job-title {
   font-weight:
   font-size:
 }
+
 /* styles for the organizations I worked at*/
-div.organization {
+.organization {
 }
+
 /* styles for dates*/
-div.date {
+.date {
   font-style: italic;
 }
+
 /* styles job descriptions*/
-div.description {
+.description {
 }
+
 /* styles for contact information*/
-div.menu {
+.menu {
   text-align: left;
 }
 /* styles for my education section*/
-div#education {
+#education {
 }
 /* styles for my skills section*/
-div#skills {
+#skills {
 }

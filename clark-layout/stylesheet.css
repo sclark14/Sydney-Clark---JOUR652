@@ -1,10 +1,11 @@
-#content, .banner, .header-image, .h1, #byline, .body,  {
+#content, .banner, .header-image, .body-image, .h1, #byline, .body, .related-items {
   margin: 0 auto;
   max-width: 900px;
 }
 .banner {
   width: 900;
   height: 80;
+  margin: 0 auto;
 }
 .header-image {
   font-family: Helvetica, sans-serif;
@@ -29,5 +30,6 @@ margin-top: 20px;
   font-size: 14px;
 }
 .related-items {
-  
+  font-family: Georgia, serif;
+  font-size: 18px;
 }

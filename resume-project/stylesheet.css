@@ -1,6 +1,6 @@
 /* styles for my resume*/
 
-#name, #container, .mission-statement, .section-header, .job-title, .organization, .date, .description, .menu, #education, #skills, body {
+#name, #container, .mission-statement, #title, #image, #experience, .section-header, .job-title, .organization, .date, .description, .menu, #education, #skills, body {
   font-family: 'Open Sans', 'Arial', sans-serif;
 }
 div#container {
@@ -18,8 +18,17 @@ div#title {
   text-transform: uppercase;
   text-align: center;
 }
+div#image {
+  margin: 0 auto;
+  
+}
 /* styles for my mission statement*/
 div.mission-statement {
+}
+div#experience {
+  font-size:
+  text-transform: uppercase;
+
 }
 /* styles for section headers*/
 div.section-header {
@@ -27,8 +36,8 @@ div.section-header {
   }
 /* styles for job titles*/
 div.job-title {
-  font-weight: 700;
-  font-size: 1.5em;
+  font-weight:
+  font-size:
 }
 /* styles for the organizations I worked at*/
 div.organization {

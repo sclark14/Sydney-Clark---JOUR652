@@ -1,0 +1,52 @@
+/*These are my styles for custom webpage*/
+
+#byline-publication, {
+}
+
+#byline-publication {
+  font-family: "Helvetica", Arial, sans-serif;
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+#main-headline {
+  font-family: "Arial";
+  font-size: 36px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  color: #515A5A;
+}
+.subheadings {
+  margin-top: 10px;
+  font-family: "Arial";
+  font-size: 17px;
+  font-weight: bold;
+}
+.names-meet-the-burners {
+  font-family: "Arial";
+  font-size: 14px;
+  font-style: italic;
+  margin-bottom: 10px;
+  max-width: 1200px;
+}
+p {
+  font-family: "Georgia", Times New Roman, serif;
+  font-size: 18px;
+  max-width: 1200px;
+}
+#textarea {
+  width: 100%;
+  align-content: center;
+}
+.story-images {
+  font-family: "Arial";
+  font-size: 14px;
+  margin: 0 auto;
+}
+.blockquote {
+  font-family: "Arial";
+  font-size: 18px;
+  color: #34495E;
+  margin: 0 auto;
+}

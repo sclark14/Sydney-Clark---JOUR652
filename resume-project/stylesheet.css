@@ -1,29 +1,26 @@
 /* styles for my resume*/
 
-#banner, .container, .mission-statement, .contact-info, .section-header, .job-titles, .organizations, .dates, p, .education, #skills, .footer {
+#banner, .container, .contact-info, .section-header, .job-titles, .organizations, .dates, p, .education, #skills, footer {
   font-family: 'Open Sans', 'Arial', sans-serif;
 }
 /* banner name at top*/
 #banner {
   display: none;
-  border: solid;
+}
+nav {
+
 }
 .container {
 
 }
-/* styles for my mission statement*/
-.mission-statement {
-  font-size: 18px;
-  margin: 0 auto;
-  padding: 10px;
-}
-
 /* styles for contact information*/
 .contact-info {
   text-align: center;
   font-weight: bold;
   font-size: 16px;
-  margin: 0 auto;
+  margin-top: 10px;
+  padding: 10px;
+  width: 100%;
 }
 
 /* styles for section headers*/
@@ -31,7 +28,7 @@
   text-transform: uppercase;
   font-size: 22px;
   font-weight: bold;
-  color: #696969;
+  color: #6495ED;
   margin: 5px;
   }
 
@@ -40,6 +37,7 @@
   font-weight: bold;
   font-size: 18px;
   margin: 10px;
+  color: #708090;
 }
 /* styles for the organizations I worked at*/
 .organizations {
@@ -58,13 +56,20 @@
 p {
   padding: 5px;
   margin: 5px;
+  font-weight: 400;
 }
 
 /* styles for my education section*/
 .education {
   font-style: italic;
 }
-
-.footer {
-
+/*styles for my footer*/
+footer {
+  width: 100%;
+  background-color: #708090;
+  padding: 60px 0px;
+  color: white;
+  text-align: center;
+  font-style: italic;
+  border-style: solid;
 }

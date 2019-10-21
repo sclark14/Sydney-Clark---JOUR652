@@ -1,25 +1,21 @@
 /* styles for my resume*/
 
-#banner, .container, .contact-info, .section-header, .job-titles, .organizations, .dates, p, .education, #skills, footer {
+#banner, .contact-info, .section-header, .job-titles, .organizations, .dates, p, footer {
   font-family: 'Open Sans', 'Arial', sans-serif;
 }
-/* banner name at top*/
+
+/* banner at top of resume*/
 #banner {
   display: none;
 }
-nav {
 
-}
-.container {
-
-}
 /* styles for contact information*/
 .contact-info {
   text-align: center;
   font-weight: bold;
   font-size: 16px;
-  margin-top: 10px;
   padding: 10px;
+  margin: 10px;
   width: 100%;
 }
 
@@ -59,10 +55,6 @@ p {
   font-weight: 400;
 }
 
-/* styles for my education section*/
-.education {
-  font-style: italic;
-}
 /*styles for my footer*/
 footer {
   width: 100%;
@@ -72,4 +64,5 @@ footer {
   text-align: center;
   font-style: italic;
   border-style: solid;
+  font-size: 18px;
 }

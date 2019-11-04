@@ -1,0 +1,69 @@
+/*styles for main headline of the article*/
+.main-headline {
+  font-size: 50px;
+  text-align: center;
+  margin-top: 5px;
+  padding-top: 5px;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+}
+/*styles for the subheadline of the article*/
+.subheadline {
+  margin-top: 5px;
+  padding-bottom: 5px;
+  font-family: Arial, sans-serif;
+  font-size: 35px;
+  text-align: center;
+}
+/*styles for the byline of the article*/
+.byline {
+  text-align: center;
+  padding-bottom: 10px;
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+/*styles for the subheadings in the article*/
+.subheading {
+  font-family: Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #7695AD;
+}
+/*styles for the images within the article*/
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+/*styles for the image captions*/
+figcaption {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+/*styles for the body of the text*/
+.body-text {
+  font-size: 20px;
+  font-family: Helvetica, sans-serif;
+  margin-bottom: 25px;
+}
+
+/*styles for col-12*/
+.col-12 {
+  width: 100%;
+}
+
+/*styles for the footer of the article*/
+footer {
+  display: block;
+  font-family: Helvetica, sans-serif;
+  width: 100%;
+  background-color: #000000;
+  padding: 25px 0px;
+  color: white;
+  text-align: center;
+  border-style: solid;
+  font-size: 20px;
+}

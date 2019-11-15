@@ -21,7 +21,7 @@
    <!-- Load d3.js and c3.js -->
    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.7.0/d3.min.js" charset="utf-8"></script>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.6.8/c3.min.js"></script>
-  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link rel="stylesheet" type="text/css" href="stylesheet-copy.css">
 </head>
 <body>
 
@@ -64,8 +64,8 @@
   </nav>
   <!-- End NavBar -->
 
-  <h1 class="main-headline">Headline element</h1>
-  <h2 class="subheadline">Subheadline element</h2>
+  <h1 class="main-headline">Keeping Roots Alive</h1>
+  <h2 class="subheadline">Preserving the Afro-Brazilian Culture</h2>
   <div class="byline">By Sydney Clark</div>
 
   <!-- Start image component -->
@@ -73,9 +73,9 @@
     <div class="row">
       <div class="col-md-12">
       <figure class="col-12">
-        <img class="img-fluid" src="http://placekitten.com/1200/600"/>
+        <img class="img-fluid" src="espaco-flyer-edited.jpg"/>
         <figcaption>
-          This is a caption. (Put your credit here).
+          At Espaço Cultural Samba Trovão in Hyattsville, Md, participants learn about the Afro-Brazilian culture, especially music, dance and other traditions. (Sydney Clark)
         </figcaption>
       </figure>
       </div>
@@ -97,6 +97,8 @@
           <p class="body-text">
 
             Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+        <iframe src="https://uploads.knightlab.com/storymapjs/78a39ec133738c9de7d904eaf1fb2827/map-of-african-countries-and-their-connection-to-brazil/draft.html" frameborder="0" width="100%" height="800"></iframe>
 
         <h3 class="subheading">This is my subheading</h3>
 
@@ -133,30 +135,34 @@
 
 <!-- first graphic container-->
 <div class="graphic-container">
-  <h2>Shootings by year</h2>
-  <p>The number of shootings per year has generally remained high in the US since the turn of the century, with noticable dips in 2002, 2011 and 2015. The last three years, the number of shootings has been consistantly high.</p>
+  <h2><b>Slavery and its effect in Brazil</b></h2>
+  <p>"The slave trade lasted longer in Brazil than in almost any other country in the Americas. African slaves were brought into Brazil as early as 1530, with abolition in 1888. During those three centuries, Brazil received 4 million Africans, over four times as many as any other American destination." - <i>Africa Enslaved (University of Texas at Austin)</i></p>
   <div id="myLineChart"></div>
-  <em>Source: Data collected by The Washington Post</em>
+  <div class="horizontal-line">
+    <hr></hr>
+  </div>
 </div>
 <!-- END first graphic container-->
 
 <div class="graphic-container">
-  <h2>Where do school shootings occur?</h2>
-    <div id="where"></div>
+  <h2><b>Impact of Slavery Over Centuries</b></h2>
+  <p>For over three centuries, slavery was the heart of the Brazilian economy. It is reported that 40% of the 10 million African slaves brought to the New World came to Brazil. (Numbers of slaves are in millions.)</p>
+    <div id="slaveryovercenturies"></div>
+    <em>Source: Data collected by the University of Texas at Austin</em>
+    <div class="horizontal-line">
+      <hr></hr>
+    </div>
 </div>
 
 <div class="graphic-container">
-  <h2>What race are school shooters likely to be?</h2>
-    <div id="shooterRace"></div>
-</div>
-
-<div class="graphic-container">
-  <h2>Examining the carnage</h2>
-    <div id="killedbyYear"></div>
+  <h2><b>The first census in Brazil: 1872</b></h2>
+  <p>Brazil's population was split into just two groups: free people and slaves.
+    <div id="populationBrazil1872"></div>
+    <em>Source: Data collected by The Guardian</em>
 </div>
 
 <footer>
-  <p>Copyright 2019. Name Tk.</p>
+  <p>Copyright 2019. Sydney Clark.</p>
 </footer>
 
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -168,14 +174,13 @@
   <script type="text/javascript">
   //CHART 1
   var chart = c3.generate({
-    bindto: '#killedbyYear',
+    bindto: '#slaveryovercenturies',
     data: {
-      x: 'x',
+      x: 'years',
       columns: [
-        ['x', 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018],
-        ['Number of incidents', 7, 12, 13, 5, 11, 9, 13, 15, 10, 9, 9, 9, 7, 11, 13, 16, 7, 13, 14, 12],
-        ['Number of injuries', 35, 3, 22, 7, 7, 9, 17, 16, 17, 5, 4, 6, 9, 8, 13, 14, 2, 18, 15, 44],
-        ['Number killed', 14, 4, 5, 1, 5, 3, 9, 9, 1, 5, 1, 3, 2, 32, 3, 6, 0, 2, 5],
+        ['years', 1690, 1760, 1850, 1888],
+        ['Number of slaves in Brazil', 1.7, 1.3, 1.7, 4.7],
+        ['Number of slaves in New World', 2, 2, 4, 10],
 ]
     },
     color: {
@@ -183,32 +188,13 @@
     }
   });
 
-  var chart2 = c3.generate({
-     bindto: '#where',
-     data: {
-       columns: [
-         ['City', 101],
-         ['Suburb', 58],
-         ['Town', 24],
-         ['Rural', 31]
-       ],
-       type: 'bar'
-     },
-     color: {
-       pattern: ['#2a8dc5', '#455380', '#ee6a4b', '#60c4b2', '#973895', '#fae255', '#af3d46', '#f8bb63', '#818281']
-     }
-   });
-
    var chart3 = c3.generate({
-     bindto: '#shooterRace',
+     bindto: '#populationBrazil1872',
      data: {
        // iris data from R
        columns: [
-         ['Asian', 1],
-         ['American Indian', 3],
-         ['Black', 35],
-         ['Hispanic', 6],
-         ['White', 60],
+         ['Slaves', .7],
+         ['Free people', 4],
        ],
        type : 'pie',
        onclick: function (d, i) { console.log("onclick", d, i); },
@@ -216,7 +202,7 @@
        onmouseout: function (d, i) { console.log("onmouseout", d, i); }
      },
      color: {
-       pattern: ['#2a8dc5', '#455380', '#ee6a4b', '#60c4b2', '#973895']
+       pattern: ['#2a8dc5', '#ee6a4b',]
      }
    });
 

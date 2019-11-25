@@ -52,14 +52,6 @@
             <a class="dropdown-item" href="#">Something else here</a>
           </div>
         </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#">Disabled</a>
-        </li>
-      </ul>
-      <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-      </form>
     </div>
   </nav>
   <!-- End NavBar -->
@@ -144,6 +136,7 @@
 </div>
 <!-- END first graphic container-->
 
+<!-- second graphic container-->
 <div class="graphic-container">
   <h2><b>Impact of Slavery Over Centuries</b></h2>
   <p>For over three centuries, slavery was the heart of the Brazilian economy. It is reported that 40% of the 10 million African slaves brought to the New World came to Brazil. (Numbers of slaves are in millions.)</p>
@@ -153,13 +146,16 @@
       <hr></hr>
     </div>
 </div>
+<!-- END second graphic container-->
 
+<!-- third graphic container-->
 <div class="graphic-container">
   <h2><b>The first census in Brazil: 1872</b></h2>
   <p>Brazil's population was split into just two groups: free people and slaves.
     <div id="populationBrazil1872"></div>
     <em>Source: Data collected by The Guardian</em>
 </div>
+<!-- END third graphic container-->
 
 <footer>
   <p>Copyright 2019. Sydney Clark.</p>
@@ -179,12 +175,16 @@
       x: 'years',
       columns: [
         ['years', 1690, 1760, 1850, 1888],
-        ['Number of slaves in Brazil', 1.7, 1.3, 1.7, 4.7],
         ['Number of slaves in New World', 2, 2, 4, 10],
-]
+        ['Number of slaves in Brazil', 1.7, 1.3, 1.7, 4.7],
+      ],
+      types: {
+          'Number of slaves in New World': 'area-spline',
+          'Number of slaves in Brazil': 'area-spline',
+      }
     },
     color: {
-      pattern: ['#ff0000', '#455380', '#ee6a4b', '#60c4b2', '#973895']
+      pattern: ['#ee6a4b', '#2a8dc5', '#ee6a4b', '#60c4b2', '#973895']
     }
   });
 
@@ -193,8 +193,9 @@
      data: {
        // iris data from R
        columns: [
-         ['Slaves', .7],
          ['Free people', 4],
+         ['Slaves', .7],
+
        ],
        type : 'pie',
        onclick: function (d, i) { console.log("onclick", d, i); },
@@ -202,7 +203,7 @@
        onmouseout: function (d, i) { console.log("onmouseout", d, i); }
      },
      color: {
-       pattern: ['#2a8dc5', '#ee6a4b',]
+       pattern: ['#ee6a4b', '#2a8dc5'],
      }
    });
 

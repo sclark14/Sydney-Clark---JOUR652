@@ -1,10 +1,47 @@
+body {
+  font-family: 'PT Serif', serif;
+}
+
+.bg-dark {
+background: #333333;
+}
+
+ul.navbar-nav {
+  margin-left: auto;
+}
+
+.navbar {
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  line-height: 180%;
+}
+
+link {
+  text-decoration: none;
+  color: #e0162b;
+  hover-color: #0052a5;
+  visited-color: #999;
+}
+
+.red {
+  color: #e0162b;
+  width: 15px;
+}
+
+.blue {
+  color: #0052a5;
+  width: 15px;
+}
+
 /*styles for main headline of the article*/
 .main-headline {
-  font-size: 50px;
+  font-size: 3em;
   text-align: center;
   margin-top: 5px;
   padding-top: 5px;
-  font-family: Arial, sans-serif;
+  font-family: 'Montserrat';
   font-weight: bold;
 }
 /*styles for the subheadline of the article*/
@@ -19,7 +56,7 @@
 .byline {
   text-align: center;
   padding-bottom: 10px;
-  font-family: Arial, sans-serif;
+  font-family: 'Montserrat';
   font-size: 20px;
   margin-bottom: 10px;
 }
@@ -32,9 +69,10 @@
   color: #7695AD;
 }
 /*styles for the images within the article*/
-.img-fluid {
-  max-width: 100%;
+.hero-image {
+  max-width: 900px;
   height: auto;
+  align-content: center;
 }
 /*styles for the image captions*/
 figcaption {
@@ -45,9 +83,16 @@ figcaption {
 
 /*styles for the body of the text*/
 .body-text {
-  font-size: 20px;
-  font-family: Helvetica, sans-serif;
+  font-size: 1.25em;
+  font-family: 'Montserrat', sans-serif;
+  width:
+  text-align: center;
+  margin-top: 25px;
   margin-bottom: 25px;
+}
+
+.graphic-container {
+
 }
 
 /*styles for col-12*/
@@ -56,12 +101,12 @@ figcaption {
 }
 
 /*styles for the footer of the article*/
-footer {
+.container-fluid footer {
   display: block;
-  font-family: Helvetica, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   width: 100%;
   background-color: #000000;
-  padding: 25px 0px;
+  padding: 25px;
   color: white;
   text-align: center;
   border-style: solid;

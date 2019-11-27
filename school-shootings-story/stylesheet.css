@@ -1,3 +1,4 @@
+
 /*styles for navbar*/
 .bg-dark {
 background: #333333;
@@ -6,13 +7,13 @@ background: #333333;
 ul.navbar-nav {
   margin-left: auto;
 }
-
 .navbar {
   font-family: 'Montserrat';
   font-size: 1.25em;
   color: white;
   max-width: 100%;
 }
+
 /*styles for paragraph tags*/
 p {
   line-height: 180%;
@@ -44,13 +45,11 @@ a:hover {
   width: 15px;
   margin-right: 10px;
 }
-
 .blue {
   color: #0052a5;
   width: 15px;
   margin-right: 10px;
 }
-
 .star-row {
   margin-top: 50px;
   margin-bottom: 20px;
@@ -83,6 +82,7 @@ a:hover {
   padding-top: 20px;
   text-align: center;
 }
+
 /*styles for the images within the article*/
 .hero-image {
   max-width: 900px;
@@ -132,7 +132,6 @@ a:hover {
   font-size: 1.5em;
   padding-bottom: 5px;
 }
-
 .graphic-container {
   padding-top: 30px;
   padding-bottom: 30px;

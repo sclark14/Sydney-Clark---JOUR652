@@ -1,55 +1,95 @@
+
+/*styles for navbar*/
+.bg-dark {
+background: #333333;
+}
+ul.navbar-nav {
+  margin-left: auto;
+}
+.navbar {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.25em;
+  color: #ffffff;
+  max-width: 100%;
+}
+.flag {
+  width: 20px;
+  margin-right: 5px;
+}
+
 /*styles for main headline of the article*/
 .main-headline {
-  font-size: 50px;
+  font-size: 3em;
   text-align: center;
-  margin-top: 10px;
-  padding-top: 5px;
-  font-family: Arial, sans-serif;
+  margin-top: 30px;
+  font-family: 'Raleway', sans-serif;
   font-weight: bold;
+  max-width: 100%;
 }
 /*styles for the subheadline of the article*/
 .subheadline {
   margin-top: 5px;
   padding-bottom: 5px;
-  font-family: Arial, sans-serif;
-  font-size: 35px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.5em;
   text-align: center;
 }
 /*styles for the byline of the article*/
 .byline {
   text-align: center;
   padding-bottom: 10px;
-  font-family: Arial, sans-serif;
-  font-size: 20px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.25em;
   margin-bottom: 10px;
 }
 /*styles for the subheadings in the article*/
-.subheading {
-  font-family: Helvetica, sans-serif;
-  font-size: 25px;
-  font-weight: bold;
-  margin-bottom: 15px;
-  margin-top: 15px;
-  color: #7695AD;
+.chapter-title {
+  font-family: 'Raleway', sans-serif;
+  font-size: 2em;
+  font-weight: 800;
+  margin-bottom: 30px;
+  margin-top: 24px;
+  padding-top: 30px;
+  color: #474B47;
+  text-align: center;
 }
 /*styles for the images within the article*/
-.img-fluid {
-  max-width: 100%;
+.schedule {
+  max-width: 900px;
   height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  display: block;
+  margin-top: 24px;
 }
 /*styles for the image captions*/
 figcaption {
-  font-family: Arial, sans-serif;
-  font-size: 14px;
-  margin-bottom: 30px;
-  margin-top: 10px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1em;
+  max-width: 900px;
+  width: 100%;
+  margin: auto;
+  padding-top: 15px;
+  padding-bottom: 25px;
 }
 
 /*styles for the body of the text*/
 .body-text {
-  font-size: 18px;
-  font-family: Helvetica, sans-serif;
+  font-size: 1.15em;
+  font-family: 'Roboto', sans-serif;
   margin-bottom: 25px;
+  max-width: 100%;
+}
+
+iframe {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  display: block;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding-bottom: 10px;
 }
 
 /*styles for col-12*/
@@ -60,24 +100,26 @@ figcaption {
 /*styles for the footer of the article*/
 footer {
   display: block;
-  font-family: Helvetica, sans-serif;
+  font-family: 'Raleway', sans-serif;
   width: 100%;
   background-color: #000000;
-  padding: 25px 0px;
+  padding: 15px 0px;
   color: white;
   text-align: center;
   border-style: solid;
-  font-size: 20px;
+  font-size: 1em;
 }
 
 /*styles for the charts in the article*/
 .graphic-container {
-  font-family: Arial, sans-serif;
-  font-size: 16px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1em;
   margin-bottom: 25px;
   margin-top: 10px;
-  margin-left: 40px;
-  margin-right: 40px;
+  max-width: 100%;
+  width: 100%;
+  font-weight: bold;
+  padding-top: 30px;
 }
 
 .horizontal-line {

@@ -120,7 +120,17 @@ figcaption {
   width: 100%;
 }
 
-/*styles for the footer of the article*/
+/*styles for Facebook share button*/
+.fb-share-button {
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+/*styles for the footer*/
 footer {
   display: block;
   font-family: 'Raleway', sans-serif;
@@ -151,6 +161,7 @@ footer {
   color: #474B47;
 }
 
+/*styles for the horizontal line dividers*/
 .horizontal-line {
   width: 100%;
   display: block;

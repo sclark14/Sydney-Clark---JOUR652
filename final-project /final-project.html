@@ -2,6 +2,12 @@
 
 <html lang="en">
 <head>
+
+  <meta property="og:url"           content="https://www.your-domain.com/your-page.html" />
+  <meta property="og:type"          content="website" />
+  <meta property="og:title"         content="Keeping Roots Alive: Highlighting Afro-Brazilian Culture" />
+  <meta property="og:description"   content="description" />
+  <meta property="og:image"         content="https://www.your-domain.com/path/image.jpg" />
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -27,21 +33,29 @@
 
 </head>
 <body>
+  <!-- Load Facebook SDK for JavaScript -->
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
 
-  <!-- NavBar -->
+<!-- NavBar -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div>
-      <img class="flag" src="brazil-flag.jpg"/>
       <a class="navbar-brand" href="#">Explore the Culture</a>
     </div>
 
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
+      <img class="flag" src="brazil-flag.jpg"/>
+      <ul class="navbar-nav">
+        <li class="nav-item">
           <a class="nav-link" href="#slavery-brazil">Slavery and its impact on Brazil <span class="sr-only">(current)</span></a>
         </li>
         <!-- Link -->
@@ -55,19 +69,18 @@
     </div>
   </nav>
   <!-- End NavBar -->
-
-  <h1 class="main-headline">Keeping roots alive</h1>
-  <h2 class="subheadline">Preserving the Afro-Brazilian culture</h2>
-  <div class="byline">By Sydney Clark</div>
+</div>
 
   <!-- Start image component -->
   <div class="container">
     <div class="row">
       <div class="col-md-12">
       <figure class="col-12">
-        <img class="schedule" src="espaco-flyer-edited.jpg"/>
+        <img class="afro-brazilian" src="afro-brazilian-woman.jpg"/>
         <figcaption>
-          At Espaço Cultural Samba Trovão in Hyattsville, Md, participants learn about Afro-Brazilian cultural traditions. (Sydney Clark)
+          <div class="photo-credit">
+            (Source: Hunger TV)
+          </div>
         </figcaption>
       </figure>
       </div>
@@ -75,12 +88,16 @@
   </div>
 <!-- End image component -->
 
+<h1 class="main-headline">Keeping roots alive</h1>
+<h2 class="subheadline">Preserving the Afro-Brazilian culture</h2>
+<div class="byline">By Sydney Clark</div>
+
 <!-- Start text mockup -->
 <div class="container">
   <div class="row">
       <div class="col-md-8 offset-md-2">
         <p class="body-text">
-          HYATTSVILLE, MD – Since 2017, Espaço Cultural Samba Trovão has offered locals a taste of the Afro-Brazilian history and culture.
+          HYATTSVILLE, MD – Since 2017, Espaço Cultural Samba Trovão has offered locals a taste of the Afro-Brazilian culture.
 
         <p class="body-text"> Located in the heart of the Hyattsville Arts District, the Brazilian cultural center offers classes in Capoeira Angola, Samba dance, percussion and more.</p>
 
@@ -93,39 +110,41 @@
   <div class="row">
       <div class="col-md-8 offset-md-2">
 
-        <p class="body-text">
-            Hyattsville is the cultural center’s location because of the city’s diverse population and the various festivals that highlight culture, music and art from around the globe.</p>
+        <p class="body-text">Hyattsville was chosen as the cultural center’s location because of the city’s diverse population and the various festivals that feature music and art from around the globe.</p>
 
-        <img class="schedule" src="hyattsville-arts-fest.jpg"/>
+        <img class="article-image" src="hyattsville-arts-fest.jpg"/>
         <figcaption>
-          A painting representing diversity and solidarity was displayed at the 2019 Hyattsville Arts Festival in September. (Sydney Clark)
+          A painting representing diversity and solidarity displayed at the 2019 Hyattsville Arts Festival in September. (Sydney Clark)
         </figcaption>
 
-
-        <p class="body-text">
-            Kristen da Cruz, Espaço co-founder and Livaldi’s wife, said that cultural traditions are important and meant to be shared with those in the community. She described Espaço as a cultural fitness center.</p>
+        <p class="body-text">Kristen da Cruz, Espaço co-founder and Livaldi’s wife, said that cultural traditions are important and are meant to be shared with those in the community. She described Espaço as a cultural fitness center.</p>
 
         <p class="body-text">“You can get a little bit of culture, be exposed to new things, while also trying to stay fit and healthy,” she said.</p>
 
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/ts4foV2WJjk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="videoWrapper">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/ts4foV2WJjk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
 
-        <p class="body-text">The da Cruz’s two daughters are heavily involved at the cultural center and participate in several of the classes.</p>
+        <p class="body-text">The da Cruz’s two daughters are heavily involved at the center and participate in several of the classes.</p>
 
-        <p class="body-text">Kristen believes that it is pertinent that her daughters remain connected to the Brazilian heritage and culture on their father’s side through the activities offered at the space, as well as “know as much about that side of their culture and their history as much the one they’re growing up in.”</p>
+        <p class="body-text">Kristen believes that it is pertinent that her daughters remain connected to the Brazilian heritage on their father’s side through the activities offered at the space, as well as “know as much the culture they’re growing up in.”</p>
 
       <h3 id="slavery-brazil" class="chapter-title">Slavery and its impact on Brazil</h3>
-        <p class="body-text">
-            An <a href="https://www.huffpost.com/entry/afro-brazilian-history-be_b_452877">article</a> from HuffPost discusses the historical context of Afro-Brazilians and their influence. Beginning around 1550, the Portuguese originally traded slaves from the West and Central African regions.</p>
+        <p class="body-text">The slave trade lasted longer in Brazil than in almost any other country in the Americas.</p>
 
-        <iframe src="https://uploads.knightlab.com/storymapjs/78a39ec133738c9de7d904eaf1fb2827/map-of-african-countries-and-their-connection-to-brazil/index.html" frameborder="0" width="100%" height="800"></iframe>
+        <p class="body-text">African slaves were brought into Brazil as early as 1530. The Brazilian economy relied on slavery until it was legally abolished in 1888.
 
-        <p class="body-text">
-              The slave trade lasted longer in Brazil than in almost any other country in the Americas. African slaves were brought into Brazil as early as 1530. The Brazilian economy relied on slavery until it was legally abolished in 1888.
+        <p class="body-text">An <a href="https://www.huffpost.com/entry/afro-brazilian-history-be_b_452877">article</a> from HuffPost discusses the historical context of Afro-Brazilians and their influence. Beginning around 1550, the Portuguese started trading slaves from the West and Central African regions.</p>
+
+    <iframe src="https://uploads.knightlab.com/storymapjs/78a39ec133738c9de7d904eaf1fb2827/the-slave-trade-and-brazil/index.html" frameborder="0" width="100%" height="800"></iframe>
 
   <!-- first graphic container-->
+  <div class="horizontal-line">
+    <hr></hr>
+  </div>
   <div class="graphic-container">
-    <h2><b>The first census in Brazil: 1872</b></h2>
-    <p>Brazil's population was split into just two groups: free people and slaves.
+    <h2 class="chart-titles">The first census in Brazil (1872)</h2>
+     <p>Brazil's population was split into just two groups: free people and slaves.</p>
       <div id="populationBrazil1872"></div>
       <em>Source: Data collected by The Guardian</em>
       <div class="horizontal-line">
@@ -134,13 +153,10 @@
   </div>
   <!-- END first graphic container-->
 
-        <p class="body-text">
-              During those three centuries, Brazil received 4 million Africans to work in the mining industry and on sugar plantations. This number is over four times as many as any other American destination, according to researchers at the University of Texas at Austin.</p>
-
   <!-- second graphic container-->
   <div class="graphic-container">
-    <h2><b>The Impact of Slavery Over Centuries</b></h2>
-    <p>For over three centuries, slavery was the heart of the Brazilian economy. It is reported that 40% of the 10 million African slaves brought to the New World came to Brazil. (Numbers of slaves are in millions.)</p>
+    <h2 class="chart-titles">The Impact of Slavery Over Centuries</h2>
+      <p>For over three centuries, slavery was the heart of the Brazilian economy. It is reported that 40% of the 10 million African slaves brought to the New World came to Brazil. (Numbers of slaves are in millions.)</p>
       <div id="slaveryovercenturies"></div>
       <em>Source: Data collected by the University of Texas at Austin</em>
       <div class="horizontal-line">
@@ -149,49 +165,56 @@
   </div>
   <!-- END second graphic container-->
 
-        <p class="body-text">
-          The Africans who arrived in Brazil brought over their music and cultural traditions, which would “inevitably infuse with the Portuguese and Amerindian customs, to produce a unique cultural manifestation of its own,” the article says. One of the distinguished cultural traditions that developed was Capoeira Angola.</p>
+        <p class="body-text">The Africans who arrived in Brazil brought their music and cultural traditions, which would “inevitably infuse with the Portuguese and Amerindian customs, to produce a unique cultural manifestation of its own,” the article said.</p>
+
+        <p class="body-text"> One of the widely distinguished cultural traditions that developed was Capoeira Angola.</p>
 
       <h3 id="capoeira-angola" class="chapter-title">Capoeira Angola</h3>
-        <p class="body-text">
-            <a href="https://joaogrande.org/">Capoeira Angola </a> is an ancient martial art of African origin and is one of the numerous cultural weapons used to break the chains of slavery in Brazil.</p>
+        <p class="body-text"><a href="https://joaogrande.org/">Capoeira Angola </a> is an ancient martial art of African origin, and it was one of the numerous cultural weapons used to break the chains of slavery in Brazil.</p>
 
-        <p class="body-text">
-          Music is played on traditional instruments to accompany the players to teach the rhythmic heart of the art and to mask its power. In the eyes of the enslavers, it appeared to be a joking and playful acrobatic dance; however, its power was realized and Capoeira was outlawed. Death was the penalty paid by those caught playing Capoeira during the slavery era.</p>
+        <p class="body-text">In the eyes of the enslavers, it appeared to be a joking and playful acrobatic dance; however, its power was revealed and Capoeira was outlawed. Death was the penalty for those caught playing Capoeira during the slavery era.</p>
 
-      <img class="schedule" src="percussion-class.jpg"/>
-      <figcaption>
-      The drums and the percussion instruments of Brazil are deeply ingrained in the history of African and South American cultures. These drums are best used for the sound of the Samba, but are also now used in many other genres of today’s popular music. (Sydney Clark)
-      </figcaption>
+        <p class="body-text">Music is played on traditional instruments to accompany the players to teach the rhythmic heart of the art and to mask its power.</p>
 
-        <p class="body-text">
-          For almost 400 years, Capoeira Angola was taught and practiced in secret. In the 1930s, the African martial art become legal to teach and practice. Livaldi started practicing Capoeira Angola at just 10 years old, and he has not stopped since.</p>
+      <img class="article-image" src="percussion-class.jpg"/>
+        <figcaption>
+          The drums and the percussion instruments of Brazil are deeply ingrained in the history of African and South American cultures. These drums are best used for the sound of the Samba, but are also now used in many other genres of today’s popular music. (Sydney Clark)
+        </figcaption>
 
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/9OceTPk13kQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p class="body-text">For almost 400 years, Capoeira Angola was taught and practiced in secret. In the 1930s, the African martial art become legal to teach and practice. Livaldi started practicing Capoeira Angola at just 10 years old, and he has not stopped since.</p>
 
-        <p class="body-text">
-          Kristen particiates in the adult Capoeira Angola classes at the cultural center. She shared some insights and context about the African martial art.<p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/9OceTPk13kQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-          <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/719326918&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+        <p class="body-text">Kristen particiates in the adult Capoeira Angola classes. She pinpointed that it's not meant to be a violent sport. Rather, it is practiced and considered as more of a game.<p>
+
+        <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/719326918&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
 
       <h3 id="developments" class="chapter-title">Developments to come</h3>
-        <p class="body-text">
-          According to Kristen, children are stronger through the presence of community. One of the primary goals for the center is to expand the youth programs and replicate the model of how Livaldi grew up living in Brazil. The da Cruz’s want the center to be a creative outlet for students and young adults where they can be physically active and engaged without the use of technology.</p>
+        <p class="body-text">According to Kristen, children become stronger through the presence of community. One of the primary goals for the center is to expand the youth programs and replicate the model of how Livaldi grew up living in Brazil.</p>
 
-        <p class="body-text">
-          Currently, the center provides annual summer camps and programs that focus on different aspects of the Afro-Brazilian culture.</p>
+        <p class="body-text">The da Cruz’s want the center to be a creative outlet for students and young adults where they can be physically active and engaged without the use of technology.</p>
 
+        <p class="body-text">Currently, the center provides annual summer camps and programs that highlight different aspects of the Afro-Brazilian culture.</p>
+
+    <div class="videoWrapper">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/93vDQ5F045I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
 
-        <p class="body-text">
-          Livaldi said the center has an open-door policy for anyone to come and experience the beauty and the uniqueness of the Afro-Brazilian culture.</p>
+        <p class="body-text">Livaldi said the center has an open-door policy so that anyone can come and experience the beauty and uniqueness of the Afro-Brazilian culture.</p>
 
+    <div class="videoWrapper">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/PaHAs-lXblE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
 
-        <p class="body-text">
-          To learn more about Espaço Cultural Samba Trovão and view the schedule of classes, visit <a href="https://www.sambatrovao.com/">sambatrovao.com.</p>
+        <p class="body-text">To learn more about Espaço Cultural Samba Trovão and to view the schedule of classes, visit <a href="https://www.sambatrovao.com/">sambatrovao.com.</p>
       </div>
   </div>
+</div>
+
+<!-- Your share button code -->
+<div class="fb-share-button"
+  data-href="file:///Users/sydneyclark/Documents/GitHub/Sydney-Clark---JOUR652/final-project%20/final-project.html"
+  data-layout="button_count">
 </div>
 
 <footer>
@@ -208,6 +231,9 @@
   //CHART 1
   var chart = c3.generate({
     bindto: '#slaveryovercenturies',
+    legend: {
+      item: { onclick: function () {} }
+    },
     data: {
       x: 'years',
       columns: [
@@ -224,15 +250,17 @@
       pattern: ['#ee6a4b', '#2a8dc5', '#ee6a4b', '#60c4b2', '#973895']
     }
   });
-
+//CHART 2
    var chart3 = c3.generate({
      bindto: '#populationBrazil1872',
+     legend: {
+       item: { onclick: function () {} }
+     },
      data: {
        // iris data from R
        columns: [
          ['Free people', 4],
          ['Slaves', .7],
-
        ],
        type : 'pie',
        onclick: function (d, i) { console.log("onclick", d, i); },
